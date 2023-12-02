@@ -1,0 +1,50 @@
+/* Additional styling for the delete component */
+h2 {
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.card {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styling for delete and cancel buttons */
+.btn-delete {
+  margin-right: 10px;
+}
+
+/* Add these styles to your component's CSS or global styles */
+
+/* Example styles for the success message */
+.success-message {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  padding: 10px 20px; /* Padding for content */
+  display: flex; /* Flex display for better alignment */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  margin-top: 1.5rem;
+}
+
+/* Example styles for the mat-snack-bar container */
+::ng-deep .mat-snack-bar-container {
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
